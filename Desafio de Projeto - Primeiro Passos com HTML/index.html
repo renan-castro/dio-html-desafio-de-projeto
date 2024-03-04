@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <h1 id="inicio">Introdução ao HTML</h1>
+    <hr/>
+    <h2>Índices</h2>
+    <ul>
+        <li><a href="#ferramentas">Ferramentas utilizadas</a></li>
+        <li><a href="#inspetor">Inspetor de elementos</a></li>
+        <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#tags">Falando sobre tags</a></li>
+        <li><a href="#atributos">Atributos das tags</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+
+    <h2 id="ferramentas">Ferramentas Utilizadas</h2>
+    <a href="#inicio"><small>(Voltar ao índice)</small></a>
+
+    <p>Para se desenvolver uma página web é recomendável a utilização do programa Visual Studio Code, pois é um software open-source, multi-plataforma, grátis e oferece ao usuário diversas extensões e plugins para facilitar na hora de por em prática o desenvolvimento. </p>
+
+    <p>Para fazer o download basta acessar este  <a href="https://code.visualstudio.com/" target="_blank">link</a> e selecionar a versão desejada. Após isso, é so seguir o processo de instalação, selecionando a pasta de instalação e concluir a instalação.</p>
+
+    <p>Ao executar o programa, a interface é dividida em menus, no canto esquerdo da tela, em que poderá ser realizada diversas operação como instalação de extensões, explorador de arquivos, debug, etc. E ao lado, mostra a estrutura de arquivos e pastas do seu espaço de trabalho. No centro, é a tela principal para sim, desenvolver e criar códigos para seu aplicativo web.</p>
+    
+    <p>O recomendável a se fazer ao iniciar pela primeira vez para desenvolvimento web, é instalar extensões para aumentar a produtivdade, para isso basta ir no menu do canto esquerdo, clicar em extensões, e procurar a extensão desejada, no caso a extensão Live Server, para abrir um servidor local para abrir seus arquivos HTML com recarregamento automática da página. Outra extensão mas que já vem pré-instalada que será util no desenvolvimento, é a Emmet. Nela terão comandos que facilitarão a escrita de seus códigos. </p>
+
+    <h2 id="inspetor">Inspetor de Elementos</h2>
+    <a href="#inicio"><small>(Voltar ao índice)</small></a>
+
+    <p>Outra ferramenta que ajudará ainda mais na produtividade, é o inspetor de elementos do navegador. Caso esteja utilizando o Google Chrome basta apertar F12. Nessa ferramenta existem diversos recursos que ajudam o desenvolvedor a ver como aquela página foi criada, mostrando o HTML, o CSS da página, mudar o estilo dos elementos dentro da página, entre outras funções. </p>
+
+    <h2 id="estrutura">Estrutura básica do HTML</h2>
+    <a href="#inicio"><small>(Voltar ao índice)</small></a>
+
+    <p>A estrutura básica do HTML, consiste na utilização por tags, que são os elementos que formam uma página HTML. Nela ocorre a separação por &lt;html&gt;, &lt;head&gt; e &lt;body&gt;, a tag &lt;html&gt;, é utilizada pra demarcar o espaço em que vai ser utilizado para fazer códigos em HTML. na head ou cabeça de uma página HTML, é onde é carregado configurações antes de exibir para o usuário, por exemplo, pode ser definido um título pela tag &lt;title&gt;. E no body ou corpo, é onde é mostrado para o usuário todas as suas tags, formando uma página HTML por títulos, parágrafos, imagens etc.</p>
+
+    <p>Para ver o seu arquivo HTML no navegador, basta clicar na opção "Go Live", no menu inferior do Visual Studio Code com a extensão Live Server instalada.</p>
+    
+    <h2 id="tags">Falando sobre Tags</h2>
+    <a href="#inicio"><small>(Voltar ao índice)</small></a>
+
+    <p>No HTML existem milhares de tags, cada uma com sua função, uma delas é a tag <i>&lt;i&gt;</i>, que serve para transformar o texto que está entre ela em itálico, ou a tag <strong>&lt;strong&gt;, que faz com que o texto fique em negrito.</strong>.</p>
+    <p>também é possível utilizar tags dentro de outras tags como, nesse exemplo, fazer com que o texto fique em <strong><i>negrito e em itálico</i></strong>.</p>
+    <p>Outra tag muito importante é o input, que faz com que abra um espaço para que o usuário digite algum dado. e nele existe o atributo type, que diz respeito ao tipo de entrada de dado, se seria um número, texto, senha, email etc.</p>
+    <p>Caso queira colocar uma imagem existe a tag img, em que no atributo src poderá ser específicado o link, ou o diretório para aquela imagem, juntamente com o width, em que poderá ser ajustado o tamanho da imagem.</p>
+
+    <h2 id="atributos">Atributos das tags</h2>
+    <a href="#inicio"><small>(Voltar ao índice)</small></a>
+
+    <p>No HTML, existem os atributos das tags, que são propriedas que uma tag deve ter. Existem atributos globais que são os que quase toda tag tem e os específicos que somente algumas tags tem.</p>
+    <p>Nas tags em geral, pode ser utilizado o atributo "id", que faz referência ao identificador daquele elemento, podendo ser usado para realizar alguma função no JavaScript, tornando a página mais flexível, ou a class, utilizada no CSS para estilizar algum elemento.</p>
+    <p>A tag input tem o atributo type, que como ja foi dito anteriormente, muda a entrada de dados do usuário ou o atributo src da tag img, que diz respeito ao local em que essa imagem está inserida para ser mostrada na página HTML. esse é um exemplo de específico. </p>
+
+    <h2 id="textos">Textos</h2>
+    <a href="#inicio"><small>(Voltar ao índice)</small></a>
+
+    <p>Existem tags específicas para diversas funcionalidades, aqui estarão tags para serem usadas em textos.</p>
+    <p>Para colocar títulos na sua página HTML, utilize o h1, h2, h3,h4 até o h6. Esses títulos tem uma ordem de hierarquia, de título e subtítulo, descrição etc. Como se fosse uma página de jornal em que tem o título principal que seria o h1, o subtítulo que seria o h2, e assim por diante.</p>
+    <p>Também existe o parágrafo, que é a tag &lt;p&gt;, que é usado no corpo do texto de sua página HTML, para escrever textos em geral.</p>
+    <p>A tag &lt;blockquote&gt;, <blockquote>faz com que dê um espaçamento e dizendo ao navegador que ele é uma citação.</blockquote></p>
+    <p>Além desses, existe a tag &lt;u&gt;, que é o <u>sublinhado</u>.</p>
+    <p>Caso queira marcar algum texto utilize a tag &lt;mark&gt; que faz com que um texto fique <mark>marcado</mark>.</p>
+
+    <h2 id="listas">Listas ordenadas e Não Ordenadas</h2>
+    <a href="#inicio"><small>(Voltar ao índice)</small></a>
+
+    <p>No HTMl, existem dois tipos de listas, as ordenadas e as não ordenadas. Elas utilizam as tags &lt;ol&gt; de listas ordenadas e &lt;ul&gt; de listas não ordenadas, e cada item dentro da lista utiliza a tag &lt;li&gt;.</p>
+    <p>Exemplo de listas ordenadas, que tem uma ordem:</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <p>Exemplos de listas não ordenadas, que não seguem uma ordem:</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <p>Também é possível colocar listas dentro de outras listas.</p>
+    <ol>
+        <li>Item 1</li>
+            <ul>Item 1.1</ul>
+            <ul>Item 1.2</ul>
+            <ul>Item 1.3</ul>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h2 id="links">Links</h2>
+    <a href="#inicio"><small>(Voltar ao índice)</small></a>
+
+    <p>Para fazer a navegação entre links externos e para próprias páginas existe a tag &lt;a&gt;, de âncora.</p>
+    <p>Nessa tag tem um atributo chamado href que especifica aonde que vai ser levado aquela âncora.</p>
+    <p>No atributo href é possível colocar uma URL, ou o diretório de outro arquivo HTML.</p>
+    <p>Existe outro atributo chamado target, que trata-se da ação ao clicar no link, se vai ser levado para outra página, redirecionado da na mesma página. Caso queira que seja levado a uma nova aba, "_blank". Caso queira que seja redirecionado da mesma página, que é o comportamento padrão da tag a, "__self"</p>
+</body>
+
+    <h2 id="referencias">Referências</h2>
+    <a href="#inicio"><small>(Voltar ao índice)</small></a>
+
+    <p>Links de matérias:</p>
+    <p><a href="https://www.youtube.com/watch?v=3oSIqIqzN3M" target="_blank">5 MINUTOS DE HTML PARA INICIAR EM PROGRAMAÇÃO! - Rafaella Ballerini </a></p>
+    <p><a href="https://www.youtube.com/watch?v=f6NTJdtEFOc&list=PL6Jz-JGehwch9RGfc1Cvz63S4AB2o1FzM&index=13" target="_blank">Parágrafos e Quebras - Curso em Vídeo</a></p>
+    <p><a href="https://www.youtube.com/watch?v=aiOEBhozEOg&list=PL6Jz-JGehwch9RGfc1Cvz63S4AB2o1FzM&index=20" target="_blank">Hierarquia de Títulos - Curso em Vídeo</a></p>
+    <p><a href="https://www.youtube.com/watch?v=JlE0pzESf5g&list=PL6Jz-JGehwch9RGfc1Cvz63S4AB2o1FzM&index=25" target="_blank">Listas OL e UL - Curso em Vídeo</a></p>
+    <p><a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PL6Jz-JGehwch9RGfc1Cvz63S4AB2o1FzM&index=27" target="_blank">Links e Âncoras em HTML5 - Curso em Vídeo</a></p>
+</html>
